@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">F21COMP3025W4</string>
+    <string name="enter_your_name">Enter your Name!</string>
+    <string name="browser">Browser</string>
+    <string name="sms_button">SMS Button</string>
+    <string name="pass_info">Pass Info</string>
+    <string name="pass_details">Pass Details</string>
+    <string name="your_name">Your Name</string>
+</resources>
