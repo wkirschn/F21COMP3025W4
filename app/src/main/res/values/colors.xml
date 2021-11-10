@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="repsychle_green">#BBF1DE</color>
+    <color name="repsychle_green_shade">#E1F8F0</color>
+    <color name="repsychle_salmon">#FFC4C6</color>
+    <color name="repsychle_cream">#F9EDE0</color>
+    <color name="repsychle_purple">#868BB9</color>
+    <color name="repsychle_shade">#45323E</color>
+    <!-- Color for primary and secondary text? -->
+
+
 </resources>
