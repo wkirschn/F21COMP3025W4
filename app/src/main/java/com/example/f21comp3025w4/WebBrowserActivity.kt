@@ -40,6 +40,8 @@ class WebBrowserActivity : AppCompatActivity() {
                 if (!(url.startsWith("http://") || url.startsWith("https://"))) {
                     url = "http://" + url
 
+
+
                     // create an implicit intent
                     val intent = Intent(Intent.ACTION_VIEW)
 
