@@ -31,13 +31,15 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Enter your name at the top", Toast.LENGTH_LONG).show()
             }
 
-            // Navigate to the Web Browser Activity
-
-            binding.webButton.setOnClickListener {
-                startActivity(Intent(this, WebBrowserActivity::class.java))
-            }
 
 
+
+        }
+
+        // Navigate to the Web Browser Activity
+
+        binding.webButton.setOnClickListener {
+            startActivity(Intent(this, WebBrowserActivity::class.java))
         }
     }
 }
