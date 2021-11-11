@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RePsychleTheme">
         <activity
+            android:name=".SmsActivity"
+            android:exported="true" />
+        <activity
             android:name=".WebBrowserActivity"
             android:exported="true" />
         <activity
