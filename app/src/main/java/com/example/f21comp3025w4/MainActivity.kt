@@ -3,6 +3,7 @@ package com.example.f21comp3025w4
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.f21comp3025w4.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -18,8 +19,25 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.passDetailsButton.setOnClickListener {
-            var intent = Intent(this, PassDetailsActivity::class.java)
-            startActivity(intent)
+            var copiedText = binding.editNameTest.text.toString()
+
+            if(copiedText.isNotEmpty()) {
+                var intent = Intent(this, PassDetailsActivity::class.java)
+                intent.putExtra("passDetailsNameTextView", copiedText)
+                startActivity(intent)
+            }
+
+            else {
+                Toast.makeText(this, "Enter your name at the top", Toast.LENGTH_LONG).show()
+            }
+
+            // Navigate to the Web Browser Activity
+
+            binding.webButton.setOnClickListener {
+                startActivity(Intent(this, WebBrowserActivity::class.java))
+            }
+
+
         }
     }
 }
